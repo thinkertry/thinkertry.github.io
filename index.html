@@ -41,16 +41,6 @@
         }
 
         var account='';
-        jQuery('#output').qrcode({
-            render	: "table",
-            width: 180,
-            height: 180,
-            text	: '您的通行无效',
-            render: "canvas", //也可以替换为table
-            foreground: "#"+colour,
-            background: "#FFF",
-
-        });
     })
 
     function getJkm() {
@@ -107,7 +97,7 @@
         
             <strong><div class="time2" id="div_timer" style="white-space: pre;">05月26日 13:40:08</div></strong>
         
-        <div class="qr1">
+        <div class="qr">
             
                 <div style="margin-top: 10px;margin-bottom: 10px"><img src="/bluecode.png"></div></div>
             
@@ -115,7 +105,7 @@
         </div>
         
             
-                <div class="time">有效期：2020-05-26 - 2020-06-03</div>
+                <div class="time">有效期：2020-05-26 - 2020-06-02</div>
     
     
         <div id="hzjkm"><div class="hz" style="color: #55b957">健康码为 绿码</div></div>
