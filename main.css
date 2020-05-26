@@ -90,6 +90,7 @@ html, body {
 .time{
 	width:90%;
 	margin:0 auto;
+	margin-top: 15px;
 	text-align:center;
 	line-height:24px;
 	font-size:0.9rem;
